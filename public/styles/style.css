@@ -27,7 +27,7 @@ html {
 }
 button {
   border: none;
-  background-color: #565656;
+  background-color: #00ac7a;
   color: #fdfdfd;
   padding: 10px;
   text-align: center;
@@ -38,12 +38,16 @@ button {
 }
 button:hover {
   cursor: pointer;
-  background-color: #818181;
+  background-color: #006243;
 }
 
 /* helper classes */
 .center {
   text-align: center;
+}
+.divider {
+  width: 100%;
+  border-top: 2px solid #00ac7a;
 }
 .error {
   color: #c91105;
@@ -74,6 +78,9 @@ button:hover {
 .margin-left {
   margin-left: 15px;
 }
+.pointer {
+  cursor: pointer,
+}
 .success {
   color: #00ac7a;
 }
@@ -87,3 +94,20 @@ button:hover {
   width: 100%;
 }
 /* -------------- */
+
+.content {
+  padding: 50px;
+}
+.card {
+  border-radius: 5px;
+  padding: 10px;
+  background: #f9fff9;
+}
+.card:hover {
+  background: #d5f6de;
+}
+.image-card {
+  width: 200px;
+  height: auto;
+  border-radius: 5px;
+}
