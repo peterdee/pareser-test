@@ -1,0 +1,89 @@
+/* reset default styles */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: 'Open Sans', sans-serif;
+  vertical-align: baseline;
+}
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+button {
+  border: none;
+  background-color: #565656;
+  color: #fdfdfd;
+  padding: 10px;
+  text-align: center;
+  min-width: 150px;
+  border-radius: 5px;
+  font-size: 12px;
+  margin: 0 5px;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #818181;
+}
+
+/* helper classes */
+.center {
+  text-align: center;
+}
+.error {
+  color: #c91105;
+}
+.flex-center {
+  justify-content: center;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.flex-start {
+  justify-content: flex-start;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.margin-bottom {
+  margin-bottom: 15px;
+}
+.margin-top {
+  margin-top: 15px;
+}
+.margin-left {
+  margin-left: 15px;
+}
+.success {
+  color: #00ac7a;
+}
+.space-around {
+  justify-content: space-around;
+}
+.space-between {
+  justify-content: space-between;
+}
+.width100 {
+  width: 100%;
+}
+/* -------------- */
