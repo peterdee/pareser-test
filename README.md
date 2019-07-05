@@ -32,6 +32,23 @@ Stack: `Node`, `Express`, `Sequelize`, `PostgreSQL`, `JQuery`
 
 DEV: http://localhost:3000
 
+Requires `keys.js` file in the `bin` directory.
+
+### `keys.js` example
+
+```javascript
+const DATABASE = {
+  dbname: '<DATABASE_NAME>',
+  host: '<DATABASE_HOST>',
+  password: '<USER_PASSWORD>',
+  user: '<USER_NAME>',
+};
+
+module.exports = {
+  DATABASE,
+};
+```
+
 ### Deploy
 
 `git clone https://github.com/peterdee/pareser-test.git`
