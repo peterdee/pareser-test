@@ -28,7 +28,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/api/parse', parse);
 app.use('/api/show', show);
 
-// return error when route is invalid
+// resolve invalid routes
 app.all('*', (req, res) => res.redirect('/'));
 
 module.exports = app;

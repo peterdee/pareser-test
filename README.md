@@ -48,6 +48,10 @@ DEV: http://localhost:3000
 
 `npm run sync`
 
+### Drop database (optional)
+
+`npm run drop`
+
 ### Launch
 
 `npm run dev`

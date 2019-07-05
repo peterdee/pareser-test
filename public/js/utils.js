@@ -5,7 +5,7 @@
  */
 function showLoader(identifier) {
   return $(`#${identifier}`).empty().append(`
-<div class="flex-row flex-center width100">
+<div class="flex-row flex-center width100 margin-top">
   <img src="../images/loader.gif" alt="Loading..."/>
 </div>
   `);

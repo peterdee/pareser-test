@@ -1,18 +1,18 @@
 module.exports = Sequelize => ({
-  // truck maker
-  maker: {
+  // title: year / maker / model
+  title: {
     type: Sequelize.STRING,
   },
-  // truck model
-  model: {
-    type: Sequelize.STRING,
-  },
-  // production year
-  year: {
+  // truck photo
+  photo: {
     type: Sequelize.STRING,
   },
   // description summary
   summary: {
+    type: Sequelize.TEXT,
+  },
+  // link to the article
+  link: {
     type: Sequelize.TEXT,
   },
   // table name

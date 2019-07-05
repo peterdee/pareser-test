@@ -6,6 +6,7 @@
   "author": "Peter",
   "scripts": {
     "dev": "nodemon ./bin/www",
+    "drop": "node ./db/drop.js",
     "sync": "node ./db/sync.js"
   },
   "engines": {
@@ -20,8 +21,10 @@
     "debug": "~2.6.9",
     "express": "~4.16.1",
     "morgan": "~1.9.1",
+    "node-html-parser": "^1.1.16",
     "nodemon": "^1.19.1",
     "pg": "^7.11.0",
+    "request": "^2.88.0",
     "sequelize": "^5.9.2"
   }
 }

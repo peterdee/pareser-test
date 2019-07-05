@@ -5,6 +5,7 @@ async function startParsing() {
       method: 'GET',
     });
     clearIdentifier('results');
+    clearIdentifier('error');
     console.log('> results', results);
   } catch (err) {
     return showError('error', 'Error loading results!', err);
@@ -19,6 +20,7 @@ async function showResults() {
       method: 'GET',
     });
     clearIdentifier('results');
+    clearIdentifier('error');
     console.log('> results', results);
   } catch (err) {
     return showError('error', 'Error loading results!', err);
