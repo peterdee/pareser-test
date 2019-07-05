@@ -5,7 +5,8 @@
   "description": "Parser test task",
   "author": "Peter",
   "scripts": {
-    "start": "nodemon ./bin/www"
+    "dev": "nodemon ./bin/www",
+    "sync": "node ./db/sync.js"
   },
   "engines": {
     "node": "12.6.0"
@@ -20,6 +21,7 @@
     "express": "~4.16.1",
     "morgan": "~1.9.1",
     "nodemon": "^1.19.1",
+    "pg": "^7.11.0",
     "sequelize": "^5.9.2"
   }
 }
